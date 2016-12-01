@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Aleksandr Kravchuk](https://up.htmlacademy.ru/adaptive/9/user/125048).
-* Наставник: [Сергей Tovarov Попов](https://htmlacademy.ru/profile/id42761).
+* Наставник: [Сергей Tovarov Попов](https://up.htmlacademy.ru/adaptive/9/user/42761).
 
 ---
 
