@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка - Вязание на заказ</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <header class="page-header">
+        <div class="logo">
+          <a href="/"><img src="http://placehold.it/86x35" width="86" height="35" alt="Мишка - магазин вещей ручной работы для дома"></a>
+        </div>
+        <nav class="main-nav  main-nav--closed  main-nav--nojs">
+          <button class="main-nav__toogle" type="button">Открыть меню</button>
+          <ul class="main-nav__items">
+            <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
+            <li class="main-nav__item main-nav__item--active"><a>Вязание на заказ</a></li>
+            <li class="main-nav__item  main-nav__item--search"><a href="#">Поиск по сайту</a></li>
+            <li class="main-nav__item  main-nav__item--cart"><a href="#">Корзина: пока пуста</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page-title page-title--inner">
+        <h1 class="page-title__heading">Вязание на заказ</h1>
+      </div>
+
+      <div class="knitting-description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</div>
+
+      <form class="knitting-form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="form-group">
+          <legend class="form-group__heading">Тип</legend>
+          <input class="form-group__radio" type="radio" id="accessory" name="type" checked>
+          <label class="form-group__radio-label" for="accessory">Аксессуар для интерьера</label>
+          <input class="form-group__radio" type="radio" id="toy" name="type">
+          <label class="form-group__radio-label" for="toy">Детская игрушка</label>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__heading">Цвет</legend>
+          <input class="form-group__checkbox" type="checkbox" value="Белый" id="white" checked>
+          <label class="form-group__checkbox-label" for="white">Белый</label>
+          <input class="form-group__checkbox" type="checkbox" value="Серый" id="gray" checked>
+          <label class="form-group__checkbox-label" for="gray">Серый</label>
+          <input class="form-group__checkbox" type="checkbox" value="«Тиффани»" id="tiffany">
+          <label class="form-group__checkbox-label" for="tiffany">«Тиффани»</label>
+          <input class="form-group__checkbox" type="checkbox" value="Черный" id="black">
+          <label class="form-group__checkbox-label" for="black">Черный</label>
+          <input class="form-group__checkbox" type="checkbox" value="Розовый" id="pink">
+          <label class="form-group__checkbox-label" for="pink">Розовый</label>
+          <input class="form-group__checkbox" type="checkbox" value="Оранжевый" id="orange">
+          <label class="form-group__checkbox-label" for="orange">Оранжевый</label>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__heading">ФИО</legend>
+          <label class="form-group__name-label" for="name">Имя:</label>
+          <input class="form-group__name" type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
+          <label class="form-group__name-label" for="surname">Фамилия:</label>
+          <input class="form-group__name" type="text" name="surname" id="surname" placeholder="Укажите фамилию*" required>
+          <label class="form-group__name-label" for="patronym">Отчество:</label>
+          <input class="form-group__name" type="text" name="patronym" id="patronym" placeholder="Отчество, если желаете">
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__heading">Тел</legend>
+          <input class="form-group__tel" type="tel" id="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="+7 ХХХ ХХ ХХ*" required>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__heading">E-mail</legend>
+          <input class="form-group__e-mail" id="email" name="email" type="email" placeholder="Ваш Email*" required>
+        </fieldset>
+
+        <fieldset class="form-group">
+          <legend class="form-group__heading">Доп</legend>
+          <textarea class="form-group__additionally" name="additionally" rows="6" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        </fieldset>
+        <p class="form-group__info">*Поля обязательны для заполнения</p>
+        <button class="button knitting--button" type="submit">Отправить заказ</button>
+      </form>
+
+      <footer class="page-footer">
+        <div class="social-buttons">
+          <a href="#" class="social-link  social-link--in">Мы в Инстаграме</a>
+          <a href="#" class="social-link  social-link--fb">Мы в Фейсбуке</a>
+          <a href="#" class="social-link  social-link--tw">Мы в Твиттере</a>
+        </div>
+        <p class="page-footer__copyright">
+          Разработано
+          <a class="page-footer__copyright-logo" href="https://htmlacademy.ru/"><img class="" src="http://placehold.it/27x150" width="27" height="34" alt="Htmlacademy"></a>
+        </p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
