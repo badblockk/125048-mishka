@@ -1,0 +1,22 @@
+.form-group {
+
+  &__heading {
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: bold;
+    color: $lightgreen;
+    text-transform: uppercase;;
+  }
+
+  &__info {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+}

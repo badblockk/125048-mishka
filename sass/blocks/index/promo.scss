@@ -1,0 +1,23 @@
+.promo {
+
+  &__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: $darktextcolor;
+    line-height: 30px;
+  }
+
+  &__description {
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: $lightgreen;
+    line-height: 16px;
+  }
+
+  &__price {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}

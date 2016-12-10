@@ -1,0 +1,33 @@
+//импорт normalize
+@import "normalize.scss";
+
+//импорт шрифтов, переменных, миксинов
+@import "global/fonts.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+//импорт общих стилей
+@import "blocks/page-header.scss";
+@import "blocks/main-menu.scss";
+@import "blocks/page-footer.scss";
+
+//импорт универсальных модулей
+@import "global/global.scss";
+
+//импорт модулей главной страницы
+@import "blocks/index/page-title.scss";
+@import "blocks/index/catalog-menu.scss";
+@import "blocks/index/promo.scss";
+@import "blocks/index/contacts.scss";
+@import "blocks/index/about-us.scss";
+@import "blocks/index/reviews.scss";
+
+//импорт страницы Каталога
+@import "blocks/catalog/catolog-item.scss";
+@import "blocks/catalog/production.scss";
+
+//импорт страницы формы
+@import "blocks/form/knitting-description.scss";
+@import "blocks/form/knitting-form.scss";
+
+//импорт сетки

@@ -1,0 +1,18 @@
+.catolog-item {
+
+  &__heading {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  &__description {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  &__price {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+}

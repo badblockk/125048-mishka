@@ -1,0 +1,19 @@
+.main-nav {
+
+  &__toogle {
+    font-size: 0;
+  }
+
+  &__items {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: block;
+    font-size: 17px;
+    color: $darktextcolor;
+    font-weight: bold;
+    line-height: 24px;
+  }
+}

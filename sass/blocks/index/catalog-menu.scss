@@ -1,0 +1,23 @@
+.catalog-menu {
+
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    color: $lightextcolor;
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+
+    &--interior {
+      background-color: $lightgreen;
+    }
+
+    &--toys {
+      background-color: $darkgreen;
+    }
+  }
+}

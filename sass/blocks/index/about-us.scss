@@ -1,0 +1,60 @@
+.about-us {
+
+  &__item-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+  position: relative;
+  vertical-align: bottom;
+  font-weight: bold;
+  font-size: 17px;
+  color: $darktextcolor;
+
+    &::before {
+      content: "";
+      display: block;
+    }
+
+    &--eco::before {
+      width: 32px;
+      height: 38px;
+      background: url("../img/icon-feature-1.svg") no-repeat;
+    }
+
+    &--style::before {
+      width: 35px;
+      height: 35px;
+      background: url("../img/icon-feature-2.svg") no-repeat;
+    }
+
+    &--like::before {
+      width: 47px;
+      height: 28px;
+      background: url("../img/icon-feature-3.svg") no-repeat;
+    }
+
+    &--handmade::before {
+      width: 55px;
+      height: 24px;
+      background: url("../img/icon-feature-4.svg") no-repeat;
+    }
+
+    &--homeland::before {
+      width: 34px;
+      height: 28px;
+      background: url("../img/icon-feature-5.svg") no-repeat;
+    }
+
+    &--giftwrap::before {
+      width: 33px;
+      height: 33px;
+      background: url("../img/icon-feature-6.svg") no-repeat;
+    }
+
+  }
+
+
+}

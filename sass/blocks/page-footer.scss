@@ -1,0 +1,40 @@
+.page-footer {
+  background-color: #f1f1f1;
+
+  &__copyright-logo {
+    width: 27px;
+    height: 34px;
+    color: $lightgreen;
+    vertical-align: middle;
+  }
+
+  &__copyright {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 18px;
+  }
+}
+
+.social-link {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: bottom;
+
+  &--in {
+    background: url("../img/icon-insta.svg") no-repeat;
+    width: 22px;
+    height: 22px;
+  }
+
+  &--fb {
+    background: url("../img/icon-fb.svg") no-repeat;
+    width: 15px;
+    height: 28px;
+  }
+
+  &--tw {
+    background: url("../img/icon-twitter.svg") no-repeat;
+    width: 24px;
+    height: 21px;
+  }
+}
